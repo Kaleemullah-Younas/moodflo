@@ -1,4 +1,4 @@
-python==3.10
+python==3.11.0
 streamlit
 plotly
 pandas
@@ -13,6 +13,7 @@ python-dotenv
 reportlab
 ffmpeg-python
 imageio[ffmpeg]
+
 
 
 
