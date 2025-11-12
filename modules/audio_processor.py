@@ -4,6 +4,7 @@ import subprocess
 import tempfile
 import os
 from pathlib import Path
+import imageio_ffmpeg as ffmpeg
 from config import AUDIO_SAMPLE_RATE, FRAME_DURATION, HOP_DURATION, SILENCE_THRESHOLD
 
 class AudioProcessor:
@@ -79,4 +80,5 @@ class AudioProcessor:
             'duration': len(audio) / sr,
             'sample_rate': sr
         }
+
 
