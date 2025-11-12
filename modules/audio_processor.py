@@ -18,7 +18,8 @@ class AudioProcessor:
         output_path = os.path.join(temp_dir, "extracted_audio.wav")
         
         command = [
-            'ffmpeg', '-i', str(video_path),
+             ffmpeg.get_ffmpeg_exe(),
+             '-i', str(video_path),
             '-ac', '1',
             '-ar', str(self.sample_rate),
             '-vn', '-y',
@@ -78,3 +79,4 @@ class AudioProcessor:
             'duration': len(audio) / sr,
             'sample_rate': sr
         }
+
