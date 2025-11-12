@@ -1,0 +1,13 @@
+streamlit
+plotly
+pandas
+numpy
+scipy
+librosa
+soundfile
+pydub
+scikit-learn
+openai
+python-dotenv
+reportlab
+ffmpeg-python
