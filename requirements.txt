@@ -11,3 +11,6 @@ openai
 python-dotenv
 reportlab
 ffmpeg-python
+imageio[ffmpeg]
+
+
